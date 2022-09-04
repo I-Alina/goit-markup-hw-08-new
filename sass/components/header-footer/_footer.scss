@@ -1,0 +1,25 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__all {
+    display: flex;
+    align-items: baseline;
+  }
+  &__info {
+    flex-grow: 1;
+    margin-right: 70px;
+  }
+  &__logo {
+    margin-bottom: 20px;
+  }
+  &__addres {
+    margin-bottom: 9px;
+  }
+  &__join {
+    margin-right: 100px;
+  }
+}
+.footer--dark {
+  background: #2f303a;
+}

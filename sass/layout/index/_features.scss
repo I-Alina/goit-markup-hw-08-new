@@ -1,0 +1,55 @@
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #ffffff;
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__icon-antenna::before {
+    background-image: url(../images/antenna.svg);
+  }
+  &__icon-clock::before {
+    background-image: url(../images/clock.svg);
+  }
+  &__icon-laptop::before {
+    background-image: url(../images/after-hero-laptop.svg);
+  }
+  &__icon-astronaut::before {
+    background-image: url(../images/astronaut.svg);
+  }
+}
+.features__item {
+  width: 270px;
+  &:not(:nth-child(4n)) {
+    margin-right: 30px;
+  }
+  &::before {
+    display: block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    background-repeat: no-repeat;
+    background-color: #f5f4fa;
+    background-size: 65px 70px;
+    background-position: center;
+  }
+}

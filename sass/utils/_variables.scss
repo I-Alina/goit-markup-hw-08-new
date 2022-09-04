@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  --header-color: #757575;
+  --main-title-color: #212121;
+  --second-header-color: #2196f3;
+  --local-color: #ffffff;
+}
